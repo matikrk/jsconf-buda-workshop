@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "angular-host": "apps/angular-host",
+    "angular-host-e2e": "apps/angular-host-e2e",
+    "angular-remote": "apps/angular-remote",
+    "angular-remote-e2e": "apps/angular-remote-e2e"
+  }
 }
